@@ -11,6 +11,10 @@ body {
     background-image: url('./images/forest.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-size: cover;
     overflow: hidden;
     height: 100vh;
@@ -176,6 +180,7 @@ body {
     .header {
         font-size: .7rem;
         width: calc(87% - 40px);
+        background-attachment: scroll;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
