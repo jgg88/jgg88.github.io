@@ -1,0 +1,232 @@
+body {
+    background-image: linear-gradient(176deg, #e8c356 7%, #FFFFFF 22%, #587969 84%);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-image: url('./images/forest.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 87%;
+    margin-left: 68px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+    font-size: 3.9em;
+    font-family: 'Bungee Shade', cursive;
+    margin: 0;
+}
+
+.header h2 {
+    margin: 0 0 20px;
+}
+
+.main-header {
+    color: brown;
+    text-align: center;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 34%;
+    margin-left: calc(50% - 17%);
+    margin-right: calc(50% - 17%);
+}
+
+.description {
+    position: relative;
+    top: 20px;
+    line-height: 1.8em;
+}
+
+.header h2 span {
+    color: #d2900f;
+    background-color: rgba(0, 0, 0, 0.637);
+    text-align: left;
+}
+
+.contact-icons {
+    position: fixed;
+    left: 20px;
+    top: 37%;
+    width: 40px;
+    z-index: 1;
+}
+
+.linkedin-icon {
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.mail-icon, .github-icon {
+    width: 28px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+.linkedin-icon:hover, .mail-icon:hover, .github-icon:hover {
+    transform: scale(1.3);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px 10%;
+    justify-content: center;
+}
+
+.skills-header {
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+.skills {
+    color: rgb(39, 66, 66);
+    background-color: #80808000;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 23px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects-container {
+    column-count: 2;
+    column-gap: 1em;
+    width: 920px;
+    margin-left: calc(50% - 460px);
+    margin-right: calc(50% - 460px);
+}
+
+.project {
+    display: inline-block;
+}
+
+.screenshots {
+    background-color: #eee;
+    margin: 0 0 .5em;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
+}
+
+.screenshots:hover {
+    transform: scale(.99);
+}
+
+.info-bubble {
+    font-family: 'Poppins', sans-serif;
+    width: 450px;
+    height: 194px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #FFFFFF;
+    margin: 0 0 1em;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.info-bubble .top {
+    border-color: #00000000 #00000000 #000000 #00000000;
+    border-width: 0px 20px 26px 20px;
+    top: -27px;
+    left: 60px;
+}
+
+.info-bubble .top:after {
+    border-color: #ffffff00 transparent #ffffff transparent;
+    border-style: solid;
+    border-width: 0px 20px 25px 20px;
+    bottom: -27px;
+    content: "";
+    position: absolute;
+    left: -20px;
+}
+
+.info-bubble h1 {
+    margin: 10px 0 10px 15px;
+}
+.info-bubble h3 {
+    margin: 0 10px 10px 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header {
+        font-size: .7rem;
+        width: calc(87% - 40px);
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .projects-container {
+        column-count: 2;
+        width: 610px;
+        margin-left: calc(50% - 305px);
+    }
+
+    .screenshots {
+        width: 300px;
+    }
+
+    .info-bubble {
+        width: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width: 416px) {
+
+    .contact-icons {
+        top: 90px;
+        left: 10px;
+    }
+
+    .header {
+        font-size: 1rem;
+        width: calc(100% - 40px);
+        margin-left: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .header {
+        font-size: .5rem;
+    }
+    .projects-container {
+        column-count: 1;
+        width: 350px;
+        margin-left: calc(50% - 175px);
+        margin-right: calc(50% - 175px);
+    }
+
+    .screenshots {
+        width: 350px;
+    }
+
+    .info-bubble {
+        width: 350px;
+    }
+}

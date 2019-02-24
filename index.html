@@ -1,109 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Joshua Gomez | PORTFOLIO</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Mada" rel="stylesheet">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Joshua Gomez</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='icon' href="assets/images/favicon.png" type='image/x-icon'/>
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Bungee+Shade|Alegreya+Sans+SC:900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css">
+        <script src="./assets/logic.js"></script>
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                
+                <div class="main-header">
+                    <h1>Joshua Gomez</h1>
+                    
+                    <h2>Full Stack JavaScript Developer</h2>
+                    <img src="assets/images/me.jpg">
+                </div>
+    
+                <h2 class="description"><span>I am passionate about creative problem solving. As a software developer, I want to develop solutions that put the needs and expectations of the user first, with intuitively designed UI. As a self-starter, I want to be on a team with others who are as disciplined and passionate to create quality products as I am, and, importantly, to have fun getting there!</span></h2>
+            </div>
+            <div class="contact-icons">
+                <a href="https://github.com/jgg88">
+                    <img src="assets/images/GitHub-Mark-32px.png" class="github-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/jggomez/">
+                    <img src="assets/images/linkedin28px.png" class="linkedin-icon">
+                </a>
+                <a href="mailto:jggomez.dev@gmail.com">
+                    <img src="assets/images/close-envelope.png" class="mail-icon">
+                </a>
+            </div>
 
-</head>
-<body>
+            <h1 class="skills-header">Technical Skills</h1>
+            <div class="skills-container">
+                <p class="skills">HTML5</p>
+                <p class="skills">CSS</p>
+                <p class="skills">JavaScript</p>
+                <p class="skills">JQuery</p>
+                <p class="skills">React</p>
+                <p class="skills">AngularJS</p>
+                <p class="skills">Angular 7</p>
+                <p class="skills">Node</p>
+                <p class="skills">RESTful API</p>
+                <p class="skills">MongoDB</p>
+                <p class="skills">SQL</p>
+                <p class="skills">Bootstrap</p>
+                <p class="skills">Python</p>
+                <p class="skills">PHP</p>
+                <p class="skills">Scrum/Agile</p>
+                <p class="skills">Git</p>
+            </div>
 
-<div id="contact">
-	<a href="https://www.linkedin.com/in/joshua-gomez-a3947514a/">LinkedIn</a> | <a href="https://github.com/jgg88">Github</a>
-</div>
 
-	<div class="header">
-		<p id="title">JOSHUA GOMEZ</p>
-		<p id="developer">F U L L - S T A C K  D E V E L O P E R</p>
-		<p id="skills">HTML5 // CSS3 // Javascript // JQuery // NodeJs // Express // HandlebarsJS // MySQL // MongoDB</p>
-	</div>
-
-<div data-start="opacity:0;" data-700="opacity:1;" class="skrollable skrollable-between" style="opacity: 1;">
-	<img src="assets/images/me.jpg" id="self">
-	<div class="about">
-		<p>Hey there! My name is Joshua Gomez, a recent graduate from the Coding Bootcamp at UNC, and life-long multimedia artist--with a bachelors in Studio Art.</p>
-
-		 <p>I am passionate about creating, and nearly every decision I make is fueled by the desire to be successful at creative problem solving. As a full-stack javascript developer, I want to create thoughtful products that are tailored to the needs and expectations of the client. And better yet, I want to see myself on a self-driven, motivated team that works to achieve the same goal.</p>
-		<p class="abouttitle">ABOUT ME</p>
-	</div>
-</div>
-
-	<div class="portfolio">
-		<p class="porttitle">PORTFOLIO</p>
-		<div class="work">
-			<div class="wrap">
-				<a href="https://jgg88.github.io/Hangman-Game/" target="_blank">
-	       			<img src="assets/images/hangman.png" alt="hangman" class="portimg">
-	       		
-	       		<p class="description">A word guessing game that uses Javascript</p>
-	       		</a>
-	       	</div>
-	       	<div class="wrap">
-		        <a href="https://jgg88.github.io/week-4-game/" target="_blank">
-		        	<img src="assets/images/crystal.png" alt="crystal collector" class="portimg">
-		        <p class="description">Crystal Collector is a fun, simple game that demonstrates a use of javascript and jQuery</p>
-	       		</a>
-		    </div>
-		    <div class="wrap">
-	      		<a href="https://jgg88.github.io/TriviaGame" target="_blank">
-		        	<img src="assets/images/trivia.png" alt="Trivia Game" class="portimg">
-		        <p class="description">A trivia game that demonstrates the use of jQuery and timer functions</p>
-	       		</a>
-		    </div>
-		    <div class="wrap">
-	      		<a href="https://jgg88.github.io/giphy-api/" target="_blank">
-		        	<img src="assets/images/giphyapi.png" alt="giphy" class="portimg">
-		        <p class="description">A GIF generator that uses the Giphy API</p>
-	       		</a>
-		    </div>
-		    <div class="wrap">
-	      		<a href="https://jgg88.github.io/train-scheduler/" target="_blank">
-		        	<img src="assets/images/train.png" alt="train scheduler" class="portimg">
-		    	<p class="description">A mock train schedular app that uses Firebase</p>
-	       		</a>
-		    </div>
-		    <div class="wrap">
-				<a href="https://dedicated2barb.github.io/BYOD/" target="_blank">
-		        	<img src="assets/images/disco.png" alt="BYODisco" class="portimg">
-		        <p class="description">BYOD is a song list generator that uses the LastFM and YouTube API. I was responsible for most of the UI, and offered some assistance with the APIs.</p>
-	       		</a>
-		    </div>
-		     <div class="wrap">
-				<a href="https://murmuring-caverns-95569.herokuapp.com/" target="_blank">
-		        	<img src="assets/images/eataburger.png" alt="Eat-A-Burger" class="portimg">
-		        
-		        <p class="description">A full stack application that uses Node.js/Express/MySQL/Handlebars</p>
-		    	</a>
-		    </div>
-		    <div class="wrap">
-				<a href="https://pure-mountain-94087.herokuapp.com/" target="_blank">
-		        	<img src="assets/images/nytscraper.png" alt="nyt-scraper" class="portimg">
-		        
-		        <p class="description">This simple full stack application demonstrates a use of MongoDB and scrapes The New York Times for current news headlines</p>
-		    	</a>
-		    </div>
-		    <div class="wrap">
-				<a href="https://rogue-scholar.herokuapp.com/" target="_blank">
-		        	<img src="assets/images/rogue.png" alt="Rogue Scholar" class="portimg">
-		        
-		        <p class="description">Rogue Scholar allows users to write posts and read random posts from other users, and also renders randomly generated current news headlines from a variety of sources. Data is stored using mySQL. This was created by a team where I worked on the UI, as well as the newsAPI that renders the headline data</p>
-		    	</a>
-		    </div>
-		     <div class="wrap">
-				<a href="https://project3-triangle.herokuapp.com/" target="_blank">
-		        	<img src="assets/images/trirelo.png" alt="Triangle Relo" class="portimg">
-		        
-		        <p class="description">Triangle Relo is a fullstack React app that, so far, is a minimum viable product serving as a prototype for future development. It is for users planning to move into the Triangle. Using the Zillow API and Google Maps API, users can view the regions of the Triangle provided by Zillow, and then select amenities to view in the surrounding area to see what appeals to them. I was responsible for the UI.</p>
-		    	</a>
-		    </div>
-		</div>
-	</div>
-
-	<script src="assets/javascript/skrollr.js"></script>
-	<script type="text/javascript">
-		var s = skrollr.init();
-	</script>
-	
-</body>
+            <h1 class="skills-header">Personal Projects</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <a href="https://jgg88.github.io/calculator-js/">
+                        <img src="assets/images/calculator.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Calculator</h1>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/measurement-converter/">
+                        <img src="assets/images/conversion.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Conversion Tool</h1>
+                        <h3>JQuery</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://project3-triangle.herokuapp.com/">
+                        <img src="assets/images/trirelo.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Triangle Relo</h1>
+                        <h3>Team Project: My role was the UI/UX.</h3>
+                        <h3> React, Node, Express, Google API, Zillow API</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://devourburger-game.herokuapp.com/">
+                        <img src="assets/images/eataburger.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Eat-a-Burger</h1>
+                        <h3>Materialize, Node, Express, MySQL, HandlebarsJS</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/word-guess-angularjs/">
+                        <img src="assets/images/hangman-angularjs.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Hangman (AngularJS)</h1>
+                        <h3>AngularJS</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://choosethenews.herokuapp.com/">
+                        <img src="assets/images/nytscraper.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">NYT News Scraper</h1>
+                        <h3>HandlebarsJS, MongoDB, Node, Express, Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/giphy-api/">
+                        <img src="assets/images/giphyapi.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Giphy Generator</h1>
+                        <h3>JQuery, Giphy API, Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://friendfinder-game.herokuapp.com/">
+                        <img src="assets/images/friendfinder.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Friend Finder</h1>
+                        <h3>JQuery, Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/tip-calculator-js/">
+                        <img src="assets/images/tip-calc.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Tip Calculator</h1>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://rogue-scholar.herokuapp.com/">
+                        <img src="assets/images/rogue.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Rogue Scholar</h1>
+                        <h3>Team Project: my role was UI and API integration.</h3>
+                        <h3>HandlebarsJS, Node, Express, NewsAPI</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://dedicated2barb.github.io/BYOD/">
+                        <img src="assets/images/disco.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Bring Your Own Disco</h1>
+                        <h3>JavaScript, LastFM API, googleapis/youtube API</h3>
+                    </div> 
+                </div>
+                <div class="project">    
+                    <a href="https://jgg88.github.io/Hangman-Game/">         
+                        <img src="assets/images/hangman.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Hangman (JavaScript)</h1>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/TriviaGame/">
+                        <img src="assets/images/trivia.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Trivia Game</h1>
+                        <h3>JQuery</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/week-4-game/">
+                        <img src="assets/images/crystal.png" class="screenshots"> 
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Crystal Collector</h1>
+                        <h3>JQuery</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://jgg88.github.io/train-scheduler/">
+                        <img src="assets/images/train.png" class="screenshots">
+                    </a>
+                    <div class="info-bubble">
+                        <div class="arrow top"></div>
+                        <h1 class="info-title">Train Scheduler</h1>
+                        <h3>JQuery, Firebase, Bootstrap</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
